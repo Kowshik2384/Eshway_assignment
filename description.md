@@ -27,7 +27,3 @@ The `Authorization` header MUST be stripped when:
 
 3. **Subdomain Changes**: A redirect from `http://api.example.com/` to `https://www.example.com/` is cross-domain and must strip the header.
 
-## Error Conditions
-
-- If the redirect location is malformed, the client should raise an appropriate URL parsing error.
-- If the redirect loop is detected, the client should raise a redirect loop error.
