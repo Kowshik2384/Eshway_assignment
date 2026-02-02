@@ -6,7 +6,8 @@
 - **Stars**: 15,000+
 - **License**: BSD-3-Clause
 - **Primary Language**: Python
-- **Base Commit**: `4f8068a7ade1f4d10403e325ed2354109df1724f`
+- **Base Commit**: `14a1704be507cf435fa84da75c249c2ecd1c3981`
+
 - **Issue Reference**: https://github.com/encode/httpx/issues/1850
 
 ## Setup Instructions
