@@ -6,6 +6,6 @@ WORKDIR /app
 COPY . .
 
 # Install project dependencies including test/dev dependencies at build time
-RUN pip install -e ".[dev]" pytest
+RUN pip install -e ".[dev]"
 
 CMD ["/bin/bash"]
