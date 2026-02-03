@@ -1,5 +1,5 @@
 # Dev environment for httpx redirect authorization task
-FROM python:3.9-slim
+FROM public.ecr.aws/x8v8d7g8/mars-base:latest
 
 WORKDIR /app
 
