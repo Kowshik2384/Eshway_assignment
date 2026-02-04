@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . .
 
-# Install project dependencies and pytest (not in httpx dev extras)
-RUN pip install -e ".[dev]" pytest
+# Install project dependencies and test dependencies
+RUN pip install -e ".[dev]" pytest trustme
 
 CMD ["/bin/bash"]
