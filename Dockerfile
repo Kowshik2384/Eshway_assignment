@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . .
 
-# Install project dependencies and test dependencies
-RUN pip install -e ".[dev]" pytest trustme
+# Install project dependencies and required test dependencies
+RUN pip install -e ".[dev]" pytest trustme uvicorn
 
 CMD ["/bin/bash"]
